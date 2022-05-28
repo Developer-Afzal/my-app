@@ -15,7 +15,7 @@ const Veg=()=>{
         document.querySelector(".name1").innerHTML=Data[4].AlooParatha;
         document.getElementById("amt1").innerHTML=`&nbsp; RS : ${Data[4].Amt}/-`;
         document.getElementById("updateamt1").style.display="none";
-        document.getElementById("simg1").src='http://localhost:3000/static/media/AlooParatha.5eaa5484fb7903ff8a7d.jpg';  
+        document.getElementById("simg1").src=AlooParatha;  
     }
     function Showc2(){
         document.getElementById('show-content').style.display='none';
@@ -24,7 +24,7 @@ const Veg=()=>{
         document.querySelector(".name1").innerHTML=`${Data[5].cholebhature}`;
         document.getElementById("amt1").innerHTML=`RS : ${Data[5].Amt}/-`;
         document.getElementById("updateamt1").style.display="none";
-        document.getElementById("simg1").src='http://localhost:3000/static/media/cholebhature.f2c57e127a77672379fe.jpg';
+        document.getElementById("simg1").src=cholebhature;
 
     }
     function Showc3(){
@@ -35,7 +35,7 @@ const Veg=()=>{
         document.querySelector(".name1").innerHTML=`${Data[6].cholepuri}`;
         document.getElementById("amt1").innerHTML=`RS : ${Data[6].Amt}/-`;
         document.getElementById("updateamt1").style.display="none";
-        document.getElementById("simg1").src='http://localhost:3000/static/media/cholepuri.c270e268b3144a6761e5.jpg';
+        document.getElementById("simg1").src=cholepuri;
      }
      function Showc4(){
         reset()
@@ -45,7 +45,7 @@ const Veg=()=>{
         document.querySelector(".name1").innerHTML=`${Data[7].rajmachwal}`;
         document.getElementById("amt1").innerHTML=`RS : ${Data[7].Amt}/-`;
         document.getElementById("updateamt1").style.display="none";
-        document.getElementById("simg1").src='http://localhost:3000/static/media/rajmachwal.6145a5127585164f6700.jpg';          
+        document.getElementById("simg1").src=rajmachwal;          
      }
 function close(){
     document.getElementById("show-content1").style.display='none';

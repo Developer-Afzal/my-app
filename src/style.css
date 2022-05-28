@@ -251,7 +251,7 @@ input{
 
 #close{
     float:right;
-    margin:-35px -30px 0px 0px;
+    margin:-35px -20px 0px 0px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color:#fff;
@@ -389,7 +389,7 @@ button[type=submit]{
     }
     nav{
         display:grid;
-        grid-template-columns:25% 40% 22%;
+        grid-template-columns:36% 0% 10%;
         grid-gap: 10px;
     }
 
@@ -404,46 +404,53 @@ button[type=submit]{
     #show-content{
         left: 3%;
         width: 90%;
-        top: 18%;
+        top: 25%;
         position: fixed;
-        height: 300px;
+        height: 344px;
     }
     #show-content1{
         left: 3%;
         width: 90%;
-        top: 18%;
+        top: 25%;
         position: fixed;
-        height: 300px;
+        height: 344px;
     }
     #show-content2{
         left: 3%;
         width: 90%;
-        top: 18%;
+        top: 25%;
         position: fixed;
-        height: 300px;
+        height: 344px;
     }
     .right-pop{
         line-height: 35px;
-        margin: 10px 0px 0px 0px;
+        margin: -215px 0px 0px 0px;
+        width: 85%;
+        height: 175px;
+        background: #fff;
+        opacity: 0.8;
+        box-shadow: 5px 20px 20px -15px;
+        border-radius: 10px;
+        border:none;
     }
     .pop-btn{
         padding:0px;
     }
     .left-pop {
         margin-top: 10px;
-        width: 40%;
+        width: 95%;
         height: 90%;
     }
     .pop-data{
         flex-wrap: wrap;
     }
     #simg {
-        height:250px;
+        height:300px;
     }
     #simg1{
-        height:250px;
+        height:300px;
     }#simg2{
-        height:250px;
+        height:300px;
     }
 
     .showorder {
@@ -458,8 +465,12 @@ button[type=submit]{
         
     }
     .dataBox{
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 30px;
         line-height: 1px;
+    }
+    .dataBox{
+        text-align: justify;
+        margin-left: 0px;
     }
     #nextbtn {
         margin: -40px auto 12px auto;
@@ -467,6 +478,10 @@ button[type=submit]{
     .personal-details{
         width: 80%;
         margin: 20px 0px 4px 0px;
+    }
+
+    .name,.name1,.name2{
+        margin:0px 0px 0px 10px;
     }
  
 }

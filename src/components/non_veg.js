@@ -17,7 +17,7 @@ const Non_veg = () => {
             document.getElementById("name").innerHTML=`${Data[0].Biryani}`;
             document.getElementById("amt").innerHTML=`RS : ${Data[0].Amt}/-`;
             document.getElementById("updateamt").style.display="none";
-            document.getElementById("simg").src='http://localhost:3000/static/media/ChickenBiryani.8291d15ec7c10daea5ac.png';  
+            document.getElementById("simg").src=Biryani;  
         }
         function Show2(){
             reset()
@@ -28,7 +28,7 @@ const Non_veg = () => {
             document.getElementById("name").innerHTML=`${Data[1].chickenroll}`;
             document.getElementById("amt").innerHTML=`RS : ${Data[1].Amt}/-`;
             document.getElementById("updateamt").style.display="none";
-            document.getElementById("simg").src='http://localhost:3000/static/media/ChikenMasala.ee6b463197aa11e5314f.jpg';
+            document.getElementById("simg").src=ChikenMasala;
 
         }
         function Show3(){
@@ -40,7 +40,7 @@ const Non_veg = () => {
             document.getElementById("name").innerHTML=`${Data[2].chickenCurry}`;
             document.getElementById("amt").innerHTML=`RS : ${Data[2].Amt}/-`;
             document.getElementById("updateamt").style.display="none";
-            document.getElementById("simg").src='http://localhost:3000/static/media/chickencurry.2dc7f16f09dd67e9e627.jpg';
+            document.getElementById("simg").src=chickencurry;
          }
          function Show4(){
             reset()
@@ -51,7 +51,7 @@ const Non_veg = () => {
             document.getElementById("name").innerHTML=`${Data[3].muttonBiryani}`;
             document.getElementById("amt").innerHTML=`RS : ${Data[3].Amt}/-`;
             document.getElementById("updateamt").style.display="none";
-            document.getElementById("simg").src='http://localhost:3000/static/media/MUTTONBIRYANI.09ffbfdf52f146addcaf.jpg';          
+            document.getElementById("simg").src=MUTTONBIRYANI;          
          }
     function close(){
         document.getElementById("show-content").style.display='none';

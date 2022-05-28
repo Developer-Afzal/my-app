@@ -16,7 +16,7 @@ const Southindian=()=>{
         document.querySelector(".name2").innerHTML=Data[8].Dosa;
         document.getElementById("amt2").innerHTML=`&nbsp; RS : ${Data[8].Amt}/-`;
         document.getElementById("updateamt2").style.display="none";
-        document.getElementById("simg2").src='http://localhost:3000/static/media/Plaindosa.2891c7d1a0b5874eca69.jpg';  
+        document.getElementById("simg2").src=Plaindosa;  
     }
     function Showc2(){
         document.getElementById('show-content').style.display='none';
@@ -26,7 +26,7 @@ const Southindian=()=>{
         document.querySelector(".name2").innerHTML=`${Data[9].idlli}`;
         document.getElementById("amt2").innerHTML=`RS : ${Data[9].Amt}/-`;
         document.getElementById("updateamt2").style.display="none";
-        document.getElementById("simg2").src='http://localhost:3000/static/media/idli.17c390230caa1576fcd3.jpg';
+        document.getElementById("simg2").src=idli;
 
     }
     function Showc3(){
@@ -38,7 +38,7 @@ const Southindian=()=>{
         document.querySelector(".name2").innerHTML=`${Data[10].upma}`;
         document.getElementById("amt2").innerHTML=`RS : ${Data[10].Amt}/-`;
         document.getElementById("updateamt2").style.display="none";
-        document.getElementById("simg2").src='http://localhost:3000/static/media/UPMA.478b87cec2f59ee372d7.jpg';
+        document.getElementById("simg2").src=UPMA;
      }
      function Showc4(){
         reset()
@@ -49,7 +49,7 @@ const Southindian=()=>{
         document.querySelector(".name2").innerHTML=`${Data[11].tamato}`;
         document.getElementById("amt2").innerHTML=`RS : ${Data[11].Amt}/-`;
         document.getElementById("updateamt2").style.display="none";
-        document.getElementById("simg2").src='http://localhost:3000/static/media/tomatorice.666f16fff7773acb8706.JPG';          
+        document.getElementById("simg2").src=tomatorice;          
      }
 function close(){
     document.getElementById("show-content2").style.display='none';

@@ -94,7 +94,7 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
           <strong className="itmremover"><button className="cartbtn">- Item</button><p>Enter Item Number Which You <br /> Want To Remove</p><input type="value" id="recvalue" /><Link to="/Cart" onClick={updatevalue} className="removebtn"> OK </Link></strong>
           </div>
           <div id="nextbtn">
-          <Link to="/" onClick={()=>{food.length=0;qty.length=0;famt.length=0; itm.length=0;}} ><button className="next-cart" >Cancel</button></Link>
+          <Link to="/my-app" onClick={()=>{food.length=0;qty.length=0;famt.length=0; itm.length=0;}} ><button className="next-cart" >Cancel</button></Link>
           <button className="next-cart"  onClick={Proceed}>Next</button>
           </div>
         </div>
@@ -110,7 +110,7 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
           <button type="submit">Submit</button>
           </form>
           </div>
-          <div id="backbtn"><Link to="/" onClick={()=>{food.length=0;qty.length=0;famt.length=0; itm.length=0;}} >Go Back Home Page </Link> <br/></div>
+          <div id="backbtn"><Link to="/my-app" onClick={()=>{food.length=0;qty.length=0;famt.length=0; itm.length=0;}} >Go Back Home Page </Link> <br/></div>
       </div>
     </div> 
   )
