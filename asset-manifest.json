@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.736485b5.css",
-    "main.js": "/my-app/static/js/main.e2d8c686.js",
+    "main.css": "/my-app/static/css/main.c0838838.css",
+    "main.js": "/my-app/static/js/main.4c8a23da.js",
     "static/media/ChickenBiryani.png": "/my-app/static/media/ChickenBiryani.8291d15ec7c10daea5ac.png",
     "static/media/ChikenMasala.jpg": "/my-app/static/media/ChikenMasala.ee6b463197aa11e5314f.jpg",
     "static/media/UPMA.jpg": "/my-app/static/media/UPMA.aad0f444aca9dc366df8.jpg",
@@ -18,11 +18,11 @@
     "static/media/bag1.png": "/my-app/static/media/bag1.2cd247967e296fb482f9.png",
     "static/media/bag2.png": "/my-app/static/media/bag2.47772a85d8cde05caeed.png",
     "index.html": "/my-app/index.html",
-    "main.736485b5.css.map": "/my-app/static/css/main.736485b5.css.map",
-    "main.e2d8c686.js.map": "/my-app/static/js/main.e2d8c686.js.map"
+    "main.c0838838.css.map": "/my-app/static/css/main.c0838838.css.map",
+    "main.4c8a23da.js.map": "/my-app/static/js/main.4c8a23da.js.map"
   },
   "entrypoints": [
-    "static/css/main.736485b5.css",
-    "static/js/main.e2d8c686.js"
+    "static/css/main.c0838838.css",
+    "static/js/main.4c8a23da.js"
   ]
 }
