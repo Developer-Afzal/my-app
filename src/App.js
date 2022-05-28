@@ -11,12 +11,12 @@ return (
         <Router>
             <header>
                 <nav>
-                <Link to="/" className="links "><img className="logo"src={dish}/></Link>
+                <Link to="/my-app" className="links "><img className="logo"src={dish}/></Link>
                 <Link  to="/Cart" className="links" id="link1" ><div className="counter"><Cartcounter /></div></Link>
                 </nav> 
             </header>
             <Switch>
-                <Route path="/" component={Home}exact></Route>
+                <Route path="/my-app" component={Home}exact></Route>
                 <Route path="/Cart" component={Cart} id="Cart-Link"></Route>
             </Switch>
         </Router>
