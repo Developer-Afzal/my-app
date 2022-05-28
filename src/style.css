@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+
+}
+nav{
+    display:grid;
+    grid-template-columns:85% 10% ;
+    grid-gap: 10px;
+    align-items:center;
+    justify-content: start;
+    width:100%;
+    background:antiquewhite;
+    /*background-image:linear-gradient(to right, #1555, antiquewhite);*/
+}
+
+button{
+    background-color: #000;
+    color: antiquewhite;
+    float: right;
+    margin: -20px 10px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius:2px;
+    border:none;
+    font-weight: 600;
+    font-size:0.7em;
+    cursor: pointer;
+}
+#backbtn{
+    display:none;
+}
+button:hover{
+    box-shadow:2px 2px 2px rgb(83, 81, 78);
+}
+.logo{
+    height:70px;
+    padding:20px 10px;
+}
+.links{
+    text-decoration: none;
+    font-weight:900;
+    font-size:24px;
+    background: transparent;
+
+}
+.menu-link{
+    width:fit-content;
+    margin: 0px 0px 0px 0px;
+    background: #000;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    color: #faebd7;
+}
+.counter{
+    position: relative;
+}
+
+
+input{
+    width:15px;
+    cursor: pointer;
+    text-align: center;
+}
+.menu-link:hover{
+        box-shadow: 5px 5px 5px rgb(66, 62, 62);
+}
+
+.food_container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:350px;
+    box-shadow: 10px 5px 15px rgb(231, 197, 151);
+    margin-bottom:15px;
+}
+.heading{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 900;
+    margin:50px auto 50px auto;
+    padding: 15px 100px 15px 100px;
+    background: #000;
+    color:antiquewhite;
+}
+
+.food_item{
+    font-weight:900;
+    width:23%;
+    height:280px;
+    border-radius:10px;
+    box-shadow: -6px -4px 15px 1px rgb(131 83 83);
+
+}
+.inner-content p{
+    margin:10px 0px 0px 40px;
+
+}
+
+.inner-content{
+   height:250px;
+}
+
+.food_item img{ 
+    margin:5% auto 0% 5%;
+    border-radius:10px;
+    width:90%;
+    height:200px;
+
+}
+
+.footer{
+    text-align: center;
+    height:150px;
+    width:100%;
+    margin: 50px 0px 0px 0px;
+    background: #faebd7;
+}
+/* for food categories */
+.Foot-cat{
+    position: relative;
+    width:100%;
+    height:350px;
+    background-image:linear-gradient(to right,  #fff 10%,rgba(252, 255, 255, 0.333) 10%, rgb(6, 2, 39) 100%);
+}
+.cat-banner{
+    width:30%;
+    height:350px;
+}
+.cat-banner img{
+    margin:30px 0px 0px 100px;
+    width:fit-content;
+    height:350px;
+}
+
+.cat-right{
+    position: absolute;
+    top:30px;
+    right:20%;
+}
+
+.choosebtn{
+    margin-top:50px;
+    padding:10px 15px 10px 15px;
+    border-radius:5px;
+    box-shadow: 0px 0px 30px 5px #f8eddf;
+}
+
+.showorder{
+    width:80%;
+    border: 5px double rgb(243, 224, 201);
+    height:auto;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.order-list{
+   background-color: #faebd7;
+   display: flex;
+   padding: 20px;
+   margin: 5%;
+}
+
+
+.dataBox{
+    text-align: center;
+    margin-left:20px;
+    padding: 10px;
+    width:fit-content;
+}
+
+.cartbtn{
+    margin: 30px 0px 0px 0px;float: none;
+}
+
+#Proceed{
+    display:none;
+}
+.removebtn{
+   background-color: #000;
+   color: #fff; 
+   text-decoration: none;
+   margin-left: 10px;
+   padding:5px 6px 5px 3px; 
+   border-radius: 2px;   
+}
+
+.databtn{
+    margin:2px 0px 0px 20px;
+    padding:0;
+}
+.data-h{
+    font-size:20px;
+    font-weight: 600;   
+}
+
+#editval{
+    margin-top:30px;
+}
+#updateval{
+    margin-top:30px;
+    display: none;
+}
+#show-content{
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    opacity:1;
+    top:270px;
+    left:25%;
+    display:none;
+    width:50%;
+    height:350px;
+    border:1px solid #000;
+}
+
+#show-content1{
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    opacity:1;
+    top:770px;
+    left:25%;
+    display:none;
+    width:50%;
+    height:350px;
+    border:1px solid #000;
+}
+
+
+#show-content2{
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    opacity:1;
+    top:1270px;
+    left:25%;
+    display:none;
+    width:50%;
+    height:350px;
+    border:1px solid #000;
+}
+
+#show-content h2{
+    color:#000;
+}
+
+#f-img{
+    border:1px solid #000;
+    height:250px;
+    width:100%;
+}
+
+#close{
+    float:right;
+    margin:-35px -30px 0px 0px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    background: #000;
+    border-radius: 20px;
+    padding:5px 10px ;
+    cursor:pointer;
+}
+
+.pop-data{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.left-pop{ 
+    margin-top: 10px;
+    width: 45%;
+    height:100%;
+}
+
+.right-pop{
+    border:3px double #000;
+    width:50%;
+    height:250px;
+    line-height: 50px;
+    margin: 35px 0px 0px 0px;
+}
+.right-pop strong{
+    padding: 20px;
+}
+
+#simg{
+    width:40%;
+    height:300px;
+    width: 100%;
+    border-radius:5px;
+    box-shadow: 5px -3px 10px rgb(112 88 88);
+
+}
+
+#simg1{
+    width:40%;
+    height:300px;
+    width: 100%;
+    border-radius:5px;
+    box-shadow: 5px -3px 10px rgb(112 88 88);
+}
+
+#simg2{
+    width:40%;
+    height:300px;
+    width: 100%;
+    border-radius:5px;
+    box-shadow: 5px -3px 10px rgb(112 88 88);
+}
+
+
+.pop-btn{
+    margin:60px 40px;
+    height:100px;
+}
+
+ .item{
+    width:30px;
+    margin-left:12%;
+    text-align: center;
+}
+/* choose your food CSS start here  */
+.container{
+    position: relative;
+    border:1px solid #000;
+    z-index: 999;
+}
+
+#place-order{
+    float: left;
+    margin:2% 0px 20px 45%;
+    padding: 10px 20px;
+}
+.cont button{
+    padding: 10px 14px;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.cont{
+    line-height: 25px;
+}
+
+.personal-details{
+        width: 30%;
+        height:40px;
+        cursor: text;
+        margin: 20px 0px 0px 0px;
+        border-radius: 5px;
+        border:0.1px solid #000;
+}
+.address{
+    height:100px !important;
+}
+
+#nextbtn{
+    margin: -20px auto 13px auto;
+    padding: 5px;
+    width: fit-content;
+}
+
+.Footer-content{
+    padding:50px;
+}
+
+button[type=submit]{
+    width: 100px;
+    color:#fff; 
+    float: none;
+    margin:20px    
+}
+
+
+/* Responsive CSS Start here */
+
+@media (max-width:576px){
+    .food_container{
+        height: auto;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: normal;
+        padding:30px;
+
+    }
+    .food_item{
+        width:100%;
+        margin-top:20px;
+    }
+    nav{
+        display:grid;
+        grid-template-columns:25% 40% 22%;
+        grid-gap: 10px;
+    }
+
+    .non-veg{
+        flex-wrap: wrap;
+    }
+
+    #logo1{
+        margin:0px 0px 0px 180px;
+    }
+
+    #show-content{
+        left: 3%;
+        width: 90%;
+        top: 18%;
+        position: fixed;
+        height: 300px;
+    }
+    #show-content1{
+        left: 3%;
+        width: 90%;
+        top: 18%;
+        position: fixed;
+        height: 300px;
+    }
+    #show-content2{
+        left: 3%;
+        width: 90%;
+        top: 18%;
+        position: fixed;
+        height: 300px;
+    }
+    .right-pop{
+        line-height: 35px;
+        margin: 10px 0px 0px 0px;
+    }
+    .pop-btn{
+        padding:0px;
+    }
+    .left-pop {
+        margin-top: 10px;
+        width: 40%;
+        height: 90%;
+    }
+    .pop-data{
+        flex-wrap: wrap;
+    }
+    #simg {
+        height:250px;
+    }
+    #simg1{
+        height:250px;
+    }#simg2{
+        height:250px;
+    }
+
+    .showorder {
+        width: 96%;
+    }
+    .order-list{
+        flex-wrap: wrap;
+        padding: 0px 0px 60px 0px;
+    }
+    .itmremover{
+        margin: 0px auto;
+        
+    }
+    .dataBox{
+        padding: 0px 0px 0px 20px;
+        line-height: 1px;
+    }
+    #nextbtn {
+        margin: -40px auto 12px auto;
+    }
+    .personal-details{
+        width: 80%;
+        margin: 20px 0px 4px 0px;
+    }
+ 
+}
