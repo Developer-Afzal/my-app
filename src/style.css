@@ -87,7 +87,7 @@ input{
     width:23%;
     height:280px;
     border-radius:10px;
-    box-shadow: -6px -4px 15px 1px rgb(131 83 83);
+    box-shadow: 0px 0px 15px 1px rgb(131 83 83);
 
 }
 .inner-content p{
@@ -370,6 +370,9 @@ button[type=submit]{
     margin:20px    
 }
 
+#lin1{
+    display:none;
+}
 
 /* Responsive CSS Start here */
 
@@ -397,10 +400,10 @@ button[type=submit]{
         flex-wrap: wrap;
     }
 
-    #logo1{
+    #logo1,#logo2{
         margin:0px 0px 0px 140px;
     }
-
+   
     #show-content{
         left: 3%;
         width: 90%;
@@ -466,7 +469,7 @@ button[type=submit]{
     }
     .dataBox{
         padding: 0px 0px 0px 30px;
-        line-height: 1px;
+        /* line-height: 1px; */
     }
     .dataBox{
         text-align: justify;

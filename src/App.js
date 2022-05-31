@@ -4,15 +4,13 @@ import dish from '../src/images/dish.png';
 import Cartcounter from '../src/components/Cartcounter'; 
 import Home from './pages/Home';
 const  App = () => {
-   sessionStorage.clear();
-   
 return (
     <>
         <Router>
             <header>
                 <nav>
                 <Link to="/my-app" className="links "><img className="logo"src={dish}/></Link>
-                <Link  to="/Cart" className="links" id="link1" ><div className="counter"><Cartcounter /></div></Link>
+                <div className="counter"><Cartcounter /></div>
                 </nav> 
             </header>
             <Switch>

@@ -12,7 +12,7 @@ const Home =() => {
         </div>
         <section className="footer"> 
         <div className="Footer-content">
-        <h4>Created By -:- Developer Afzal</h4>
+        <h4>Created By -:- Developer-Afzal</h4>
         </div>
         </section>
         </>

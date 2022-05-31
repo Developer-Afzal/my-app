@@ -123,10 +123,10 @@ const Non_veg = () => {
     <>
         <p className="heading">NON VEG FOOD</p>
         <section className="food_container">
-           <div className="food_item"><div  className="inner-content"><img src={Biryani}/><p>{Data[0].Biryani}</p>&nbsp;<button id="n1" onClick={Show}>Order Now</button></div></div>
-           <div className="food_item"><div className="inner-content"><img src={ChikenMasala}/><p>{Data[1].chickenroll}</p>&nbsp;<button id="n2" onClick={Show2}>Order Now</button> </div></div>
-           <div className="food_item"><div className="inner-content"><img src={chickencurry}/><p>{Data[2].chickenCurry}</p>&nbsp;<button  id="n3" onClick={Show3}>Order Now</button></div></div>
-           <div className="food_item"><div className="inner-content"><img src={MUTTONBIRYANI}/><p>{Data[3].muttonBiryani}</p>&nbsp;<button id="n4" onClick={Show4}>Order Now</button></div></div>
+           <div className="food_item"><div  className="inner-content"><img src={Biryani} onClick={Show}/><p>{Data[0].Biryani}</p>&nbsp;<button id="n1" onClick={Show}>Order Now</button></div></div>
+           <div className="food_item"><div className="inner-content"><img src={ChikenMasala} onClick={Show2}/><p>{Data[1].chickenroll}</p>&nbsp;<button id="n2" onClick={Show2}>Order Now</button> </div></div>
+           <div className="food_item"><div className="inner-content"><img src={chickencurry} onClick={Show3}/><p>{Data[2].chickenCurry}</p>&nbsp;<button  id="n3" onClick={Show3}>Order Now</button></div></div>
+           <div className="food_item"><div className="inner-content"><img src={MUTTONBIRYANI} onClick={Show4}/><p>{Data[3].muttonBiryani}</p>&nbsp;<button id="n4" onClick={Show4}>Order Now</button></div></div>
         <div id='show-content'>
             <div id="close" onClick={close}>X</div>
             <div className="pop-data">

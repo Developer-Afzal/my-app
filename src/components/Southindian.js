@@ -118,10 +118,10 @@ return (
 <>
     <p className="heading">SOUTH INDIAN FOOD</p>
 <section className="food_container">
-       <div className="food_item"><div  className="inner-content"><img src={Plaindosa}/><p>{Data[8].Dosa}</p>&nbsp;<button id="n1" onClick={Showc}>Order Now</button></div></div>
-       <div className="food_item"><div className="inner-content"><img src={idli}/><p>{Data[9].idlli}</p>&nbsp;<button id="n2" onClick={Showc2}>Order Now</button> </div></div>
-       <div className="food_item"><div className="inner-content"><img src={UPMA}/><p>{Data[10].upma}</p>&nbsp;<button  id="n3" onClick={Showc3}>Order Now</button></div></div>
-       <div className="food_item"><div className="inner-content"><img src={tomatorice}/><p>{Data[11].tamato}</p>&nbsp;<button id="n4" onClick={Showc4}>Order Now</button></div></div>
+       <div className="food_item"><div  className="inner-content"><img src={Plaindosa} onClick={Showc}/><p>{Data[8].Dosa}</p>&nbsp;<button id="n1" onClick={Showc}>Order Now</button></div></div>
+       <div className="food_item"><div className="inner-content"><img src={idli} onClick={Showc2} /><p>{Data[9].idlli}</p>&nbsp;<button id="n2" onClick={Showc2}>Order Now</button> </div></div>
+       <div className="food_item"><div className="inner-content"><img src={UPMA} onClick={Showc3}/><p>{Data[10].upma}</p>&nbsp;<button  id="n3" onClick={Showc3}>Order Now</button></div></div>
+       <div className="food_item"><div className="inner-content"><img src={tomatorice} onClick={Showc4}/><p>{Data[11].tamato}</p>&nbsp;<button id="n4" onClick={Showc4}>Order Now</button></div></div>
     <div id='show-content2'>
         <div id="close" onClick={close}>X</div>
         <div className="pop-data">

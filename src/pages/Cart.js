@@ -8,7 +8,6 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
   Quantity=(JSON.parse(sessionStorage.getItem('Qty')));
   UpAmt=(JSON.parse(sessionStorage.getItem('Amt')));
   item=(JSON.parse(sessionStorage.getItem('Item')));
-
   const changevale = UpAmt.map((i) => Number(i));
   console.log(changevale);
   const calval =changevale.reduce(myFunction);
@@ -64,12 +63,16 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
   const [Ucontact, Setucontact] = useState(" ");
   const [Uaddress, Setuaddress] = useState(" ");
   const submitform =(eve) => {
-    console.log(Username);
+      console.log(Username);
       console.log(Ucontact);
       console.log(Uaddress);
       eve.preventDefault();
+      if(Username=="" || Ucontact=="" || Uaddress==""){
+        document.getElementById("Proceed").innerHTML=`<p>Please Fill Your<p/>`;
+      }
+     if(Username!=="" && Ucontact!=="" && Uaddress!==""){
       document.getElementById("Proceed").innerHTML=`
-      <div style="display:flex; align-items: center; justify-content:space-around;"><div style="text-align:justify; margin-left:20px;">
+      <div style="display:flex; align-items: center; justify-content:space-around;flex-wrap: wrap;"><div style="text-align:justify; margin-left:20px;">
       <h4>Name:${Username}</h4>
       <h4>Contact No:${Ucontact}</h4>
       <h4>Address:${Uaddress}</h4>
@@ -77,6 +80,7 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
       <h4>Call Support : 0522 xxxxxxx</h4>
       <h4>Your Order Will Delevered in 20 Minutes </h4></div></div>`;
       document.getElementById("backbtn").style.display="block";
+     }
      
   }
 
@@ -110,9 +114,9 @@ let foodName=[], Quantity=[], UpAmt=[],item=[];
           <button type="submit">Submit</button>
           </form>
           </div>
-          <div id="backbtn"><Link to="/my-app" onClick={()=>{food.length=0;qty.length=0;famt.length=0; itm.length=0;}} >Go Back Home Page </Link> <br/></div>
+          <div id="backbtn"><Link onClick={()=>{food.length=0; qty.length=0; famt.length=0; itm.length=0; }} to="/my-app"  ><button >Go Back Home Page </button></Link> <br/></div>
       </div>
     </div> 
   )
 }
-export default Cart
+export default Cart;
